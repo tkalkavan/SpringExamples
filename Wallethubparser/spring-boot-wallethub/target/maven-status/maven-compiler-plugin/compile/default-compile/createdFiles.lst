@@ -1,0 +1,9 @@
+com\wallethub\model\Converter\LocalDateTimeAttributeConverter.class
+com\wallethub\repository\LogParamsRepository.class
+com\wallethub\service\LogServiceImpl.class
+com\wallethub\WebparserApplication.class
+com\wallethub\model\LogComments.class
+com\wallethub\repository\LogCommentsRepository.class
+com\wallethub\service\LogService.class
+com\wallethub\WebparserApplication$ParseSearch.class
+com\wallethub\model\LogParams.class
