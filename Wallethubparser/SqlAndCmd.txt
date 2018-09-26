@@ -1,0 +1,6 @@
+java  -jar Webparser-0.0.1-SNAPSHOT.jar com.wallethub.WebparserApplication --accesslog=tugce.log --startDate=2017-01-01.00:00:00 --duration=hourly --threshold=2
+
+
+SQL : SELECT * FROM log_params where log_date between "2017-01-01 00:00" and "2017-01-01 01:00" group by logip having count(logip)>= 2; 
+
+where 2 is threshold value
