@@ -17,7 +17,7 @@ public class MessageProduce implements CommandLineRunner {
 
     public void run(String... arg0) throws Exception {
         // This will put text message to queue
-        this.jmsMessagingTemplate.convertAndSend(this.queue, "Hello tugcemq!!");
+        this.jmsMessagingTemplate.convertAndSend(this.queue, "TUGCE Mq!!");
         System.out.println("Message has been put to queue by sender");
     }
 }
