@@ -1,0 +1,15 @@
+Stateless vs. Stateful Session Bean
+Now let’s have a look at the major difference between the two types of session beans.
+
+5.1 Stateless Beans
+Stateless session beans maintain no state with the client. For this reason, they can be used to create a pool of objects which interact with multiple clients
+Since stateless beans don’t have any state per client, they are better performance wise
+They can handle multiple requests from multiple clients in parallel and
+Can be used for retrieving objects from databases
+
+
+5.2 Stateful Beans
+Stateful session beans can maintain state with multiple clients, and the task is not shared among clients
+The state lasts for the duration of the session. After the session is destroyed, the state is not retained
+The container can serialize and store the state as a stale state for future use. This is done to save application server resources and to support bean failures and is passivation
+Can be used to solve producer-consumer type problems
